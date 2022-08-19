@@ -8,6 +8,29 @@
   padding: 0 0 0 10px;
 }
 
+.icon{
+  margin: 0 5px;
+}
+
+.container{
+  padding: 20px 40px;
+  margin: 0 12%;
+  background-color: #def7e7;
+  height: 100%;
+
+  .card{
+    max-width: 30rem;
+    margin: 0 auto 20px;
+    img{
+      width: 70%;
+      padding: 0 16px;
+    }
+    .btn{
+      text-align: center;
+    }
+  }
+}
+
 /////////- framework -//////////
 
 .example-spacer {
@@ -16,10 +39,6 @@
 
 /////////- tag -//////////
 
-*{
-  padding: 0;
-  margin: 0;
-}
 
 body{
   background-color: #100222;
