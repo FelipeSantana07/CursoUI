@@ -7,7 +7,6 @@
   cursos presenciais
 </mat-card-subtitle>
 </div>
-
 <table mat-table [dataSource]="cursos" class="mat-elevation-z8 demo-table">
   <!-- Position Column -->
   <ng-container matColumnDef="id">
@@ -26,4 +25,5 @@
 </table>
 
 <mat-card-footer>Informações meramente ilustrativas</mat-card-footer>
-</mat-card>
+</mat-card><tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>

@@ -7,6 +7,7 @@ import { CursosRoutingModule } from './cursos-routing.module';
 import { ListacursosComponent } from './listacursos/listacursos.component';
 import { MatCardModule } from '@angular/material/card';
 
+
 @NgModule({
   declarations: [
     ListacursosComponent

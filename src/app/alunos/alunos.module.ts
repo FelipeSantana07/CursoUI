@@ -15,7 +15,6 @@ import { MatCardModule } from '@angular/material/card';
     CommonModule,
     AlunosRoutingModule,
     MatTableModule,
-    MatCardModule
-  ]
+    MatCardModule]
 })
 export class AlunosModule { }
